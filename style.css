@@ -72,7 +72,7 @@ header {
 }
 
 .summery {
-  margin: 5rem 15rem 0 13rem;
+  margin: 10rem 15rem 0 13rem;
   color: white;
   text-align: center;
 }
@@ -87,4 +87,10 @@ header {
   font-size: 1.25rem;
   color: white;
   margin: 1rem;
+}
+
+.progression {
+  display: flex;
+  flex-direction: ;
+  color: white;
 }
