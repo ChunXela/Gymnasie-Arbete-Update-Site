@@ -17,11 +17,15 @@ body {
 }
 
 header {
-  text-align: center;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  background-image: url("/hexa_dan_wave_10.jpg");
+  height: 30rem;
 }
 
 .title {
-  margin-top: 2rem;
+  margin-top: 3rem;
   font-size: 3rem;
   color: white;
   text-shadow: 0.2rem 0.2rem #582688;
@@ -49,14 +53,14 @@ header {
 .contentBox {
   border-style: solid;
   color: #582688;
-  margin: 10rem 13rem 0 13rem;
+  margin: 10rem 18rem 0 13rem;
   box-shadow: 0.25rem 0.25rem #1b1b1b;
   min-width: 20rem;
   max-width: 90rem;
 }
 
 .contentBox p {
-  font-size: 1rem;
+  font-size: 1.25rem;
   color: white;
   margin: 1rem;
 }
@@ -65,4 +69,28 @@ header {
   text-shadow: 0.2rem 0.2rem #582688;
   color: white;
   margin: 1rem;
+}
+
+.summery {
+  margin: 10rem 15rem 0 13rem;
+  color: white;
+  text-align: center;
+}
+
+.summery h2 {
+  text-shadow: 0.1rem 0.1rem gray;
+  color: white;
+  margin: 1rem;
+}
+
+.summery p {
+  font-size: 1.25rem;
+  color: white;
+  margin: 1rem;
+}
+
+.progression {
+  display: flex;
+  flex-direction: ;
+  color: white;
 }
