@@ -28,7 +28,7 @@ body {
   display: flex;
   justify-content: space-evenly;
   align-items: center;
-  background-image: url("/hexa_dan_wave_10.jpg");
+  background-image: url("hexa_dan_wave_10.jpg");
   height: 30rem;
 }
 
