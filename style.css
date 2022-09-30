@@ -211,22 +211,32 @@ body {
   flex-direction: row;
   flex-wrap: wrap;
   border-radius: 2rem;
-  width: 75vw;
   color: white;
   justify-content: space-evenly;
   margin: 5rem 2rem 2rem 2rem;
-  background-color: rgba(0, 0, 0, 0.363);
 }
+
 .backgroundReasonDiv {
   flex-direction: column;
   text-align: center;
-  width: 20rem;
-  margin: 4rem;
+  width: 25rem;
+  margin: 3rem;
+  background-color: rgba(0, 0, 0, 0.363);
+  border-radius: 2rem;
+}
+
+.backgroundReasonDiv2 {
+  flex-direction: column;
+  text-align: center;
+  width: 25rem;
+  margin: 3rem;
+  background-color: rgba(0, 0, 0, 0.363);
+  border-radius: 2rem;
 }
 
 .backgroundReasons p {
-  margin-top: 1rem;
   width: 20rem;
+  margin: 0 2rem;
 }
 
 .learnMore {
