@@ -129,6 +129,13 @@ body {
   align-items: center;
 }
 
+.outsideHomeMain {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
 .progression {
   display: flex;
   flex-direction: row;
@@ -201,18 +208,20 @@ body {
 
 .backgroundReasons {
   display: flex;
-  margin-top: 5rem;
   flex-direction: row;
-  justify-content: space-evenly;
   flex-wrap: wrap;
-  margin: 10rem 15rem 0 15rem;
-  background-color: rgba(0, 0, 0, 0.363);
   border-radius: 2rem;
+  width: 75vw;
+  color: white;
+  justify-content: space-evenly;
+  margin: 5rem 2rem 2rem 2rem;
+  background-color: rgba(0, 0, 0, 0.363);
 }
 .backgroundReasonDiv {
-  max-width: 20rem;
+  flex-direction: column;
   text-align: center;
-  margin: 2rem;
+  width: 20rem;
+  margin: 4rem;
 }
 
 .backgroundReasons p {
@@ -225,10 +234,14 @@ body {
   border: none;
 }
 
+.moreInterest {
+  display: none;
+}
+
 .learnMore:hover {
   outline: white solid 0.1rem;
 }
 
-.moreIntresstDiv {
-  display: none;
+.points {
+  display: inline;
 }

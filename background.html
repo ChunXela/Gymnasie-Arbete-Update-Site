@@ -20,7 +20,7 @@
       </p>
     </header>
 
-    <main>
+    <main class="outsideHomeMain">
       <div class="menuHolder">
         <a href="index.html" class="menuButton">Home</a>
         <a href="#" class="menuButton">Background</a>
@@ -34,23 +34,20 @@
         <div class="backgroundReasonDiv">
           <h1>INTEREST</h1>
           <p>
-            this project is catering for people who already have an interest for
+            This project is catering for people who already have an interest for
             within 3d printing, This might wake an interest to new people to
-            start dabble in 3d printing.
-          </p>
-          <div class="learnMoreDiv">
-            <button type="submit" onclick="" class="learnMore">
-              learn more
+            start dabble in 3d printing<span class="points">...</span>
+            <button type="submit" onclick="toggleText()" class="learnMore">
+              Show More
             </button>
-          </div>
-          <div class="moreIntresstDiv" style="display: none">
-            <p class="moreIntresst">
+            <script src="/index.js"></script>
+            <span class="moreInterest">
               A large majority of people that got interested in 3d printing with
-              the ones that are in the market for a reasonable price. But they
-              also encounter the same problem of the 3d printer being not the
-              size that they wished they head
-            </p>
-          </div>
+              that they wished they head the ones that are in the market for a
+              reasonable price. But they also encounter the same problem of the
+              3d printer being not the size
+            </span>
+          </p>
         </div>
         <div class="backgroundReasonDiv">
           <h1>WHAT HAVE BEEN DONE PRIOR</h1>
@@ -60,7 +57,6 @@
           </p>
         </div>
       </div>
-      <script src="index.js" defer></script>
     </main>
   </body>
 </html>
