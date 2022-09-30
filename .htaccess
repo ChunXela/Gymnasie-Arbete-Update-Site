@@ -1,0 +1,6 @@
+RewriteEngine On
+
+RewriteRule ^background background.html [NC]
+RewriteRule ^index index.html [NC]
+RewriteRule ^Purpose and Questions PurposeandQuestions.html [NC]
+RewriteRule ^Timetable Timetable.html [NC]
