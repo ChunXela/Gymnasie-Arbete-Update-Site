@@ -132,7 +132,7 @@ body {
 .progression {
   display: flex;
   flex-direction: row;
-  background-color: rgba(0, 0, 0, 0.363);
+  background-color: rgba(0, 0, 0, 0.5);
   border-radius: 2rem;
   width: 80vw;
   color: white;
