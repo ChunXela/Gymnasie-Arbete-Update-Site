@@ -26,10 +26,16 @@ body {
 .headerInHome {
   min-width: 100%;
   display: flex;
-  justify-content: space-evenly;
+  flex-direction: column;
+  justify-content: center;
   align-items: center;
   background-image: url("hexa_dan_wave_10.jpg");
   height: 30rem;
+}
+
+.headerOutsideHome {
+  background-color: black;
+  padding: 1rem 0;
 }
 
 .headerOutsideHome h1 {
@@ -116,19 +122,29 @@ body {
   margin: 1rem;
 }
 
+.homeMain {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
 .progression {
   display: flex;
   flex-direction: row;
-  margin-top: 10rem;
+  background-color: rgba(0, 0, 0, 0.363);
+  border-radius: 2rem;
+  width: 80vw;
   color: white;
-  justify-content: center;
   justify-content: space-evenly;
+  margin: 5rem 2rem 2rem 2rem;
 }
 
 .progressionBox {
   flex-direction: column;
   text-align: center;
   width: 20rem;
+  margin: 1rem;
 }
 
 .progressImg {
@@ -190,6 +206,8 @@ body {
   justify-content: space-evenly;
   flex-wrap: wrap;
   margin: 10rem 15rem 0 15rem;
+  background-color: rgba(0, 0, 0, 0.363);
+  border-radius: 2rem;
 }
 .backgroundReasonDiv {
   max-width: 20rem;
@@ -200,4 +218,17 @@ body {
 .backgroundReasons p {
   margin-top: 1rem;
   width: 20rem;
+}
+
+.learnMore {
+  background: none;
+  border: none;
+}
+
+.learnMore:hover {
+  outline: white solid 0.1rem;
+}
+
+.moreIntresstDiv {
+  display: none;
 }
