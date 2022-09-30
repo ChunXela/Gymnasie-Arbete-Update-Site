@@ -1,6 +1,6 @@
-RewriteEngine on
-RewriteCond %{index} /([^.]+)\.html [NC]
-RewriteRule ^ /%1 [NC,L,R]
+RewriteEngine On
 
-RewriteCond %{index}.html -f
-RewriteRule ^ %{index}.html [NC,L]
+RewriteRule ^background background.html [NC]
+RewriteRule ^index index.html [NC]
+RewriteRule ^Purpose and Questions PurposeandQuestions.html [NC]
+RewriteRule ^Timetable Timetable.html [NC]
