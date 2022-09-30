@@ -238,6 +238,11 @@ body {
   display: none;
 }
 
+.moreInterest--show {
+  margin-top: 1rem;
+  display: inline-block;
+}
+
 .learnMore:hover {
   outline: white solid 0.1rem;
 }

@@ -1,40 +1,17 @@
-function toggleText() {
-  // Get all the elements from the page
-  var points = document.getElementsByClassName("points");
+const parentContainer = document.querySelector(".backgroundReasons");
 
-  var showMoreText = document.getElementsByClassName("moreInterest");
+parentContainer.addEventListener("click", (event) => {
+  const current = event.target;
 
-  var buttonText = document.getElementsByClassName("learnMore");
+  const isReadMoreBtn = current.className.includes("learnMore");
 
-  // If the display property of the dots
-  // to be displayed is already set to
-  // 'none' (that is hidden) then this
-  // section of code triggers
-  if (points.style.display === "none") {
-    // Hide the text between the span
-    // elements
-    showMoreText.style.display = "none";
+  if (!isReadMoreBtn) return;
 
-    // Show the dots after the text
-    points.style.display = "inline";
+  const currentText = event.target.parentNode.querySelector(".moreInterest");
 
-    // Change the text on button to
-    // 'Show More'
-    buttonText.innerHTML = "Show More";
-  }
+  currentText.classList.toggle("moreInterest--show");
 
-  // If the hidden portion is revealed,
-  // we will change it back to be hidden
-  else {
-    // Show the text between the
-    // span elements
-    showMoreText.style.display = "inline";
-
-    // Hide the dots after the text
-    points.style.display = "none";
-
-    // Change the text on button
-    // to 'Show Less'
-    buttonText.innerHTML = "Show Less";
-  }
-}
+  current.textContent = current.textContent.includes("Show More")
+    ? "Show Less..."
+    : "Show More...";
+});
