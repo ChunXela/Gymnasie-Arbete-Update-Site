@@ -219,6 +219,7 @@ body {
 .backgroundReasonDiv {
   flex-direction: column;
   text-align: center;
+  align-items: flex-start;
   width: 25rem;
   margin: 3rem;
   background-color: rgba(0, 0, 0, 0.363);
