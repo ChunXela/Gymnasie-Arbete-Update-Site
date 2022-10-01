@@ -2,5 +2,5 @@ RewriteEngine On
 
 RewriteRule ^Background background.html [NC]
 RewriteRule ^Home index.html [NC]
-RewriteRule ^Purpose and Questions PurposeandQuestions.html [NC]
+RewriteRule ^Purpose-and-Questions PurposeandQuestions.html [NC]
 RewriteRule ^Timetable Timetable.html [NC]
